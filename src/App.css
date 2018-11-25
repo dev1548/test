@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root{
+  height:100%;
+}
+.App{
+  margin: 0 auto;
+  background-color: black;
+  width: 80%;
+  min-height: 100%;
+}
+
+.header{
+  height:150px;
+  color: aliceblue;
+  background-color: lightslategrey;
+}
+.suport {
+  height: 50px;
+}
+.footer{
+  height:50px;
+  width:80%;
+  margin: -50px auto 0;
+  background-color: aqua;
+}
+.main {
+  color: aliceblue;
+  padding: 20px;
+}
