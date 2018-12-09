@@ -11,6 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="header">
           это хедер
+          эта строчка хедур один
         </header>
         <main className="main">
         <AuthorizationForm/>
