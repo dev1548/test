@@ -15,6 +15,8 @@ class App extends Component {
           и тут описание один
           это строчка хедер два
           и описание два
+          это сточка хедер три
+          и описание хедер три
         </header>
         <main className="main">
         <AuthorizationForm/>
