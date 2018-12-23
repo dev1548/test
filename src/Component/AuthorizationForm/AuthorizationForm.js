@@ -13,8 +13,9 @@ export default class AuthorizationForm extends Component {
     state = {
         login: '',
         password: '',
-        flagaut: !0,
-        flagspan: !1
+        flagaut: false,
+        flagspan: false
+
     };
 
 
@@ -37,14 +38,14 @@ export default class AuthorizationForm extends Component {
             const {data} = response;
             if (data === "1") {
                 this.setState({
-                    flagaut: !1,
-                    flagspan: !1
+                    flagaut: false,
+                    flagspan: false
                 });
             } else {
                 this.setState({
                     login: '',
                     password: '',
-                    flagspan: !0
+                    flagspan: true
                 })
             }
         });
@@ -54,8 +55,8 @@ export default class AuthorizationForm extends Component {
         this.setState({
             login: '',
             password: '',
-            flagaut: !0,
-            flagspan: !1
+            flagaut: true,
+            flagspan: false
         });
     };
 
